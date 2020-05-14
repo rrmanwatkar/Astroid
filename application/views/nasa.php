@@ -1,5 +1,6 @@
 
 	<?php
+		error_reporting(0);
 		if(isset($_GET['startDateValue']) && isset($_GET['endDateValue'])){
 			$start_date = $_GET['startDateValue'];
 			$end_date = $_GET['endDateValue'];
